@@ -25,7 +25,7 @@ def generate_launch_description():
 
         return [
             Node(
-                package='jekessova_duvanov_pkg',
+                package='Solozobov_Kirill_pkg',
                 executable='even_publisher',
                 name='even_publisher',
                 parameters=[{
@@ -37,7 +37,7 @@ def generate_launch_description():
             ),
 
             Node(
-                package='jekessova_duvanov_pkg',
+                package='Solozobov_Kirill_pkg',
                 executable='overflow_listener',
                 name='overflow_listener',
                 parameters=[{
