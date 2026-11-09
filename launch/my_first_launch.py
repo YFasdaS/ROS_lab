@@ -7,13 +7,13 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='jekessova_duvanov_pkg',           
+            package='Solozobov_Kirill_pkg',           
             executable='even_publisher',
             name='even_publisher',
             output='screen',
         ),
         Node(
-            package='jekessova_duvanov_pkg',
+            package='Solozobov_Kirill_pkg',
             executable='overflow_listener',
             name='overflow_listener',
             output='screen',
