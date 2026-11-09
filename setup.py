@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'jekessova_duvanov_pkg'
+package_name = 'Solozobov_Kirill_pkg'
 
 setup(
     name=package_name,
@@ -28,12 +28,12 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'even_publisher = jekessova_duvanov_pkg.even_number_publisher:main',
-            'overflow_listener = jekessova_duvanov_pkg.overflow_listener:main',
-            'listener = jekessova_duvanov_pkg.listener:main',
-            'talker = jekessova_duvanov_pkg.talker:main',
-            'first_node = jekessova_duvanov_pkg.first_node:main',
-            'time_printer = jekessova_duvanov_pkg.time_printer:main',
+            'even_publisher = Solozobov_Kirill_pkg.even_number_publisher:main',
+            'overflow_listener = Solozobov_Kirill_pkg.overflow_listener:main',
+            'listener = Solozobov_Kirill_pkg.listener:main',
+            'talker = Solozobov_Kirill_pkg.talker:main',
+            'first_node = Solozobov_Kirill_pkg.first_node:main',
+            'time_printer = Solozobov_Kirill_pkg.time_printer:main',
         ],
     },
 )
